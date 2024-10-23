@@ -1,0 +1,36 @@
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+    /* или margin-inline: auto */
+    padding: 0px 40px;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.btn {
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: var(--akcent);
+    color: #FFFFFF;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 18px;
+    padding: 14px 35px;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #2173ad;
+    color: #bebebe;
+}
+
+.btn--transparent {
+    border: 1px solid var(--akcent);
+    background-color: transparent;
+    color: #000;
+}
